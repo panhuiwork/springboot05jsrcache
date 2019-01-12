@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.0.11:3301/springcache?useUnicode=true&characterEncoding=utf8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  redis:
+    host: 192.168.0.11
+    port: 6379
+logging:
+  level:
+   com.geral.springboot05: DEBUG
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+ 
+#debug: true
